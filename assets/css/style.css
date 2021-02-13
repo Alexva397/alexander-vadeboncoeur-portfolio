@@ -6,6 +6,7 @@
     --dark: rgb(39, 39, 39);
     --light: rgb(255, 208, 190);
     --white:rgb(255, 255, 255);
+    --dark-low-op: rgba(39, 39, 39, 0.281);
 }
 
 /* body text attributes */
@@ -14,6 +15,7 @@ body {
     line-height: 1.5;
 }
 
+/* header body and title */
 .head-container {
     display: flex;
     justify-content: space-between;
@@ -21,11 +23,12 @@ body {
     flex-wrap: wrap;
     padding: 2% 6% 2% 0%;
     background-color: var(--light);
+    margin-bottom: -5px;
 }
 
 header h1 {
     color: var(--primary);
-    font-size: 50px;
+    font-size: 2.5em;
     text-align: center;
     background-color: var(--tertiary);
     padding: 10px 20px 10px 40px;
@@ -34,6 +37,7 @@ header h1 {
     
 }
 
+/* nav bar */
 nav {
     display: flex;
     align-content: center;
@@ -44,7 +48,7 @@ nav {
 nav a {
     color: var(--primary);
     margin: 10px 15px 0px 20px;
-    font-size: 30px;
+    font-size: 1.5em;
     padding: 5px 10px;
     text-decoration: none;
     background-image: linear-gradient(270deg, var(--tertiary) 0%, var(--tertiary) 100%);
@@ -63,7 +67,7 @@ nav a:hover {
     border-radius: 0;
 
 }
-
+/* main banner */
 .background-banner {
     display: flex;
     flex-direction: row;
@@ -72,12 +76,11 @@ nav a:hover {
     background-size: cover;
     background-position: top;
     background-image: url("../images/background-banner.jpg");
-    min-height: 30vh;
+    min-height: 80vh;
     padding-top: 100px;
-   
-   
 }
 
+/* profile picture */
 .profile-picture {
     align-self: center;
     padding: 0 50px 100px 50px;
@@ -92,7 +95,13 @@ nav a:hover {
     border: solid 4px var(--dark);
   
 }
+/* gradient transition */
+.gradient {
+  height: 1vh;
+  background-image: linear-gradient(var(--dark), var(--white));
+}
 
+/* Main section and subsections class */
 .main-container {
     min-width: 100%;
     background-color: var(--white);
@@ -107,31 +116,34 @@ nav a:hover {
     flex-wrap: wrap;
     align-items: stretch;
     justify-content: space-between;
-  }
+}
 
+/* title and body container and element stylings */
 .section-title {
     flex: 0 0 100%;
 }
 
 .section-title h2 {
     color: var(--tertiary);
-    font-size: 40px;
+    font-size: 2rem;
     border-bottom: solid var(--dark);
     padding-left: 2%;
-    padding-bottom: 5px;
+    padding-bottom: .5rem;
     margin: 2% 5%;
 }
+
 
 .about-me-body {
     color: var(--tertiary);
     text-align: left;
-    font-size: 25px;
-    margin: 2px 15%;
+    font-size: 1rem;
+    margin: 2rem 8rem;
     line-height: 1.5;
     align-self: center;
     flex: 0 0 60%;
 }
 
+/* work section flexbox and item stylings */
 .flex-container {
     display: flex;
     flex-wrap: wrap;
@@ -141,9 +153,10 @@ nav a:hover {
   }
 
   .flex-item {
-    height: 30%;
+    height: 30%;  
     flex: 1 0 50%;
     border: 5px solid var(--dark);
+    border-radius: 5px;
     background-color: var(--secondary);
     color: var(--tertiary);
     min-height: 150px;
@@ -160,17 +173,19 @@ nav a:hover {
     font-size: 0.9rem;
   }
 
+  /* first flex item  */
   .flex-item:first-child {
     min-height: 400px;
-    /* min-width: auto; */
+    min-width: auto;
     flex-basis: 100%;
 }
 
-
+/* changes opacity when hover */
 .flex-item:hover {
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: var(--dark-low-op);
   }
   
+  /* work item subtitle stylings */
   .flex-item div {
     background-color: var(--dark);
     padding: 8px 10px;
@@ -178,7 +193,7 @@ nav a:hover {
   
   .flex-item h3 {
     font-size: 1rem;
-    color: var(--secondary);
+    color: var(--primary);
   }
 
   .flex-item span {
@@ -208,13 +223,12 @@ nav a:hover {
 }
 
 .code-background-4 {
-    background-image: url(../images/code-image-4
-    .png);
+    background-image: url(../images/code-image-4.png);
 }
 
 
 
-
+/* footer/contact section */
 .contact {
     display: flex;
     flex-direction: row;
@@ -225,15 +239,16 @@ nav a:hover {
     color: var(--secondary);
 }
 
+/* contact elements styling */
 .contact1 {
-    margin: 0px 20px 5px 20px;
+    margin: 0 5rem 1rem 5rem;
     color: var(--primary);
     font-size: 1.5em;
   
 }
 
 address a {
-    margin: 0 3rem;
+    margin: 0 2rem;
     font-size: 1.5rem;
     color: var(--primary);
     text-decoration: none;
@@ -242,8 +257,46 @@ address a {
 
 address a:hover {
     border: 2px solid var(--primary);
-    padding: 2px;
+    padding: .25rem;
     border-radius: 5px;
 }
 
+/* first media query */
+@media screen and (max-width: 980px) {
+  .head-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  header h1 {
+    font-size: 2em;
+  }
+
+  nav a {
+    font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .flex-item,
+  .flex-item:first-child {
+    flex-basis: 100%;
+  }
+
+  .flex-item:first-child {
+    min-height: 150px;
+  }
+  header h1{
+    font-size: 1.75em;
+  }
+  nav a {
+    font-size: .75em;
+  }
+  .contact1 {
+    font-size: 1em;
+  }
+  address a {
+    font-size: 1em;
+  }
+}
 
