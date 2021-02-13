@@ -10,48 +10,61 @@
 </head>
 
 <body>
+    <!-- Main Header flexbox/content -->
     <header class="head-container">
         <h1>Alexander Vadeboncoeur</h1>
+        <!-- Navbar parent and anchors -->
         <nav>
-            <a href="#aboutme">About Me</a>
+            <a href="#about-me">About Me</a>
             <a href="#work">Work</a>
             <a href="#contact">Contact Me</a>
             <a href="https://docs.google.com/document/d/e/2PACX-1vTFl8dxiS8v8NETLPe86CPdI9a3yJ1Qfb3Kc2kYewDftoo933cIy-zYOeHDnQZFKTQSyPXv4AUxr3vd/pub">Resume</a>
         </nav>
     </header>
+    <!-- Main Background image with profile pic -->
     <section class="background-banner">
         <div class="profile-picture">
             <img src="./assets/images/profilepic.jpg" alt="Alex Vadeboncoeur">
         </div>
     </section>
-    <main>
-        <section id="aboutme" class="main-section">
-            <div>
+    <main class="main-container">
+        <section id="about-me" class="main-section">
+            <div class="section-title">
                 <h2>About Me</h2>
-                </div>
-                <div>
+            </div>
+            <div class="about-me-body">
                     <p>I am an aspiring web developer with a passion for learning new skills and problem solving. I am
-                        currently studying full stack web development,
-                        and am always searching for new challanges and ways to build upon my knowledge. I have a
-                        background as a service technician and have 3 years
-                        service/retail management experience. Feel free and reach out to connect, collaberate, and learn
+                        currently studying full stack web development, and am always searching for new challanges and ways to build upon my knowledge.
+                        Coding offers a unique challange for me, it brings a rigerous course load and introduces countless new concepts. The possibilities are endless and is an excellent way to express creativity.
+                        <br> I have a background as a service technician and have 3 years service/retail management experience. <br> Feel free and reach out to connect, collaberate, and learn
                         more! </p>
-                </div>
+            </div>
         </section>
 
-        <section id="work" class="work">
-            <div>
+        <section id="work" class="main-section">
+            <div class="section-title">   
                 <h2>Work</h2>
             </div>
-            <div>
-               
+            <div class="flex-container">
+                    <a href="https://alexva397.github.io/horiseon-accessibility-improvement/" target="_blank" class="horiseon-item flex-item">
+                        <div>
+                            <h3>Horiseon</h3>
+                            <span>HTML/CSS</span>
+                          </div>
+                    </a>
+
+                    <a href="https://alexva397.github.io/css-snippet-cheatsheet/" target="_blank" class="css-snippet-item flex-item">
+                        <div>
+                            <h3>CSS Cheatsheet</h3>
+                            <span>HTML/CSS</span>
+                          </div>
+                    </a> 
             </div>
 
         </section>
 
     </main>
     <footer id="contact" class="contact">
-        <div>
             <div class="contact1">
                 <h3>Contact Me:</h3>
             </div>
@@ -63,7 +76,7 @@
                     <a href="https://github.com/Alexva397">GitHub</a>
                 </address>
             </div>
-        </div>
+        
     </footer>
 </body>
 

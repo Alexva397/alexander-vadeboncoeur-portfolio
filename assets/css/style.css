@@ -1,13 +1,15 @@
 :root {
-    --primary: rgb(73, 100, 79);
-    --secondary:rgb(211, 207, 159);
-    --tertiary: rgb(8, 80, 70);
-    --dark: rgb(8, 24, 17);
-    --light: rgb(231, 202, 156);
+    --primary: rgb(251, 202, 186);
+    --secondary:rgb(147, 135, 137);
+    --tertiary: rgb(106, 100, 108);
+    --dark: rgb(39, 39, 39);
+    --light: rgb(255, 208, 190);
+    --white:rgb(255, 255, 255);
 }
 
 body {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5;
 }
 
 .head-container {
@@ -16,15 +18,15 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     padding: 2% 6% 2% 0%;
-    background-color: var(--dark);
+    background-color: var(--light);
 }
 
 header h1 {
-    color: var(--secondary);
-    font-size: 300%;
+    color: var(--primary);
+    font-size: 50px;
     text-align: center;
     background-color: var(--tertiary);
-    padding: 10px 20px 10px 70px;
+    padding: 10px 20px 10px 40px;
     border-radius: 10px;
     margin-left: -10px ;
     
@@ -32,16 +34,31 @@ header h1 {
 
 nav {
     display: flex;
+    align-content: center;
+    align-items: center;
    
 }
 
 nav a {
-    color: var(--secondary);
-    margin-left: 20px;
-    margin-right: 15px;
-    margin-top: 10px;
-    font-size: 1.5em;
-    align-content: center;
+    color: var(--primary);
+    margin: 10px 15px 0px 20px;
+    font-size: 30px;
+    padding: 5px 10px;
+    text-decoration: none;
+    background-image: linear-gradient(270deg, var(--tertiary) 0%, var(--tertiary) 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: bottom;
+    border-radius: 5px;
+    transition: all 0.25s ease-in-out;
+
+}
+
+nav a:hover {
+    background-size: 100% 0.2em;
+    color: var(--tertiary);
+    border-radius: 0;
+
 }
 
 .background-banner {
@@ -52,28 +69,128 @@ nav a {
     background-size: cover;
     background-position: top;
     background-image: url("../images/background-banner.jpg");
-    min-height: 400px;
+    min-height: 30vh;
     padding-top: 100px;
    
    
 }
 
 .profile-picture {
-    justify-content: flex-end;
+    align-self: center;
     padding: 0 50px 100px 50px;
     margin-left: 50px;
 }
 
 .profile-picture img {
     border-radius: 500px;
-    flex: 1 1 100%;
+    flex: 2 0 100%;
     height: 80%;
     width: 80%;
+    border: solid 4px var(--dark);
   
 }
 
+.main-container {
+    min-width: 100%;
+    background-color: var(--white);
+    min-height: 100%;
+}
+
+.main-section {
+    margin: 0px;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-between;
+  }
+
+.section-title {
+    flex: 0 0 100%;
+}
+
+.section-title h2 {
+    color: var(--tertiary);
+    font-size: 40px;
+    border-bottom: solid var(--dark);
+    padding-left: 2%;
+    padding-bottom: 5px;
+    margin: 2% 5%;
+}
+
+.about-me-body {
+    color: var(--tertiary);
+    text-align: left;
+    font-size: 25px;
+    margin: 2px 15%;
+    line-height: 1.5;
+    align-self: center;
+    flex: 0 0 60%;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin: 10px 80px;
+  }
+
+  .flex-item {
+    height: 30%;
+    flex: 1 0 50%;
+    border: 5px solid var(--dark);
+    background-color: var(--secondary);
+    color: var(--tertiary);
+    min-height: 150px;
+    max-height: 150px;
+    flex-basis: calc(50% - 1em);
+    display: flex;
+    align-items: flex-end;
+    padding: 0 0 20px 0;
+    margin: 0.5em;
+    text-decoration: none;
+    background-blend-mode: soft-light;
+    background-size: 100%;
+    transition: all 0.5s;
+    font-size: 0.9rem;
+  }
+
+  .flex-item:first-child {
+    min-height: 400px;
+    /* min-width: auto; */
+    flex-basis: 100%;
+}
 
 
+.flex-item:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  
+  .flex-item div {
+    background-color: var(--tertiary);
+    padding: 8px 10px;
+  }
+  
+  .flex-item h3 {
+    font-size: 1rem;
+    color: var(--secondary);
+  }
+
+  .flex-item span {
+      color: var(--secondary);
+  }
+
+
+
+  .horiseon-item {
+      background-image: url(../images/horiseon-image.png);
+  }
+
+  .css-snippet-item {
+      background-image: url(../images/css-snippet-image.png);
+  }
 
 
 
@@ -81,23 +198,33 @@ nav a {
 
 .contact {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-evenly;
     padding: 1.5em;
     background-color: var(--dark);
     color: var(--secondary);
-    font-size: 1.5em;
 }
 
 .contact1 {
-    flex: 1 0 20%;
-}
-
-.contact2 {
-    flex: 4 0 80%;
+    margin: 0px 20px 5px 20px;
+    color: var(--primary);
+    font-size: 1.5em;
+  
 }
 
 address a {
+    margin: 0 3rem;
     font-size: 1.5rem;
+    color: var(--primary);
+    text-decoration: none;
+    border-bottom: 2px solid var(--primary);
+}
+
+address a:hover {
+    border: 2px solid var(--primary);
+    padding: 2px;
+    border-radius: 5px;
 }
 
 
