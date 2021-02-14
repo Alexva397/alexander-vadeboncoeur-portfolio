@@ -24,11 +24,11 @@ THEN I am presented with a responsive layout that adapts to my viewport
 [Alexander Vadeboncoeur Portfolio](https://alexva397.github.io/alexander-vadeboncoeur-portfolio/#)
     
 ## Implementation    
--I included links to deployed URLs of previous work and created placeholder objects for future projects to be displayed.
--I included a navigation bar for easy access to each section within the porfolio.
--I included links to my online presence, Github, Linkedin, recent resume, and personal contact information.
--I Created a responsive layout, that sizes and restyles the website based on the viewport.
--Each project within the work section is displayed as requested.
+    -I included links to deployed URLs of previous work and created placeholder objects for future projects to be displayed.
+    -I included a navigation bar for easy access to each section within the porfolio.
+    -I included links to my online presence, Github, Linkedin, recent resume, and personal contact information.
+    -I Created a responsive layout, that sizes and restyles the website based on the viewport.
+    -Each project within the work section is displayed as requested.
 
 ## Screenshots
 ![Screenshot1](assets/images/screenshot-1.png)
