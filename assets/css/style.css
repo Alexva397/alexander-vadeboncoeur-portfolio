@@ -16,11 +16,11 @@ body {
 }
 
 /* header body and title */
-.head-container {
-    display: flex;
+.head {
+    /* display: flex;
     justify-content: space-between;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: wrap; */
     padding: 2% 6% 2% 0%;
     background-color: var(--light);
     margin-bottom: -5px;
@@ -192,6 +192,7 @@ nav a:hover {
   }
   
   .flex-item h3 {
+    text-align: center;
     font-size: 1rem;
     color: var(--primary);
   }
@@ -202,28 +203,28 @@ nav a:hover {
 
 
 /* Work Background Images */
-  .horiseon-item {
-      background-image: url(../images/horiseon-image.png);
+  .project-item {
+      background-image: url(../images/rons-grub-hub.png);
   }
 
   .css-snippet-item {
       background-image: url(../images/css-snippet-image.png);
   }
 
-  .code-background-1 {
-      background-image: url(../images/code-image-1.png);
+  .weather-dashboard {
+      background-image: url(../images/weather-dashboard.png);
   }
 
-  .code-background-2 {
-    background-image: url(../images/code-image-2.png);
+  .day-planner {
+    background-image: url(../images/day-planner.png);
 }
 
-.code-background-3 {
-    background-image: url(../images/code-image-3.png);
+.coding-quiz {
+    background-image: url(../images/coding-quiz.png);
 }
 
-.code-background-4 {
-    background-image: url(../images/code-image-4.png);
+.password-generator {
+    background-image: url(../images/password-generator.png);
 }
 
 
@@ -252,13 +253,20 @@ address a {
     font-size: 1.5rem;
     color: var(--primary);
     text-decoration: none;
-    border-bottom: 2px solid var(--primary);
+}
+
+.contact-button {
+  font-size: 1.5rem;
+  color: var(--primary);
+  padding-bottom: .25rem;
+  border-bottom: 2px solid var(--primary);
 }
 
 address a:hover {
     border: 2px solid var(--primary);
     padding: .25rem;
     border-radius: 5px;
+    color: var(--primary);
 }
 
 /* first media query */
