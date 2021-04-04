@@ -2,7 +2,7 @@
 
 ## Hello! and Welcome to the repo for my online portfolio!
 
-  ###[Click Here to visit my page!](https://alexva397.github.io/alexander-vadeboncoeur-portfolio/#)
+  ### [Click Here to visit my page!](https://alexva397.github.io/alexander-vadeboncoeur-portfolio/#)
 
 This repo contains custom styling and design used to create my site. Feel free to browse around and contact me with any questions. Enjoy!
 
