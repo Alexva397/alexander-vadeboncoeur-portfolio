@@ -1,38 +1,27 @@
 # alexander-vadeboncoeur-portfolio
 
-## Objective
-My objective was to create an online portfolio, something that introduces myself and displays my work.
+## Hello! and Welcome to the repo for my online portfolio!
 
-### The portfolio needed to meet the following criteria:
-```
-GIVEN I need to sample a potential employee's previous work
-WHEN I load their portfolio
-THEN I am presented with the developer's name, a recent photo, and links to sections about them, their work, and how to contact them
-WHEN I click one of the links in the navigation
-THEN the UI scrolls to the corresponding section
-WHEN I click on the link to the section about their work
-THEN the UI scrolls to a section with titled images of the developer's applications
-WHEN I am presented with the developer's first application
-THEN that application's image should be larger in size than the others
-WHEN I click on the images of the applications
-THEN I am taken to that deployed application
-WHEN I resize the page or view the site on various screens and devices
-THEN I am presented with a responsive layout that adapts to my viewport
-```
+  ###[Click Here to visit my page!](https://alexva397.github.io/alexander-vadeboncoeur-portfolio/#)
 
-## link
-[Alexander Vadeboncoeur Portfolio](https://alexva397.github.io/alexander-vadeboncoeur-portfolio/#)
-    
-## Implementation    
-    -I included links to deployed URLs of previous work and created placeholder objects for future projects to be displayed.
-    -I included a navigation bar for easy access to each section within the porfolio.
-    -I included links to my online presence, Github, Linkedin, recent resume, and personal contact information.
-    -I Created a responsive layout, that sizes and restyles the website based on the viewport.
-    -Each project within the work section is displayed as requested.
+This repo contains custom styling and design used to create my site. Feel free to browse around and contact me with any questions. Enjoy!
+
+This portfolio is a breif introduction to myself and the coding work I enjoy doing. 
+
+I display some of my latest works and list tech that I enjoy listing.
+
+I also Include multiple ways to contact me!
+
+
+### Future Development
+  - I would like to completely redesign the site using bootstrap, creating a coherent and more concise layout. Allowing the viewer to clearly identify Bootstrap in action.
+  - Add a Carousel component to display my projects. Starting on a featured piece.
+  - Create a contact modal that allows the user to email me from the site.
+
+
 
 ## Screenshots
-![Screenshot1](assets/images/screenshot-1.png)
-![Screenshot2](assets/images/screenshot-2.png)
-![Screenshot3](assets/images/screenshot-3.png)
-![Screenshot4](assets/images/screenshot-4.png)
-![Screenshot5](assets/images/screenshot-5.png)
+![Screenshot1](assets/images/screenshot1.png)
+![Screenshot2](assets/images/screenshot2.png)
+![Screenshot3](assets/images/screenshot3.png)
+![Screenshot4](assets/images/screenshot4.png)
