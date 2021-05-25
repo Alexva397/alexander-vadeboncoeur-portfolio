@@ -10,7 +10,7 @@ This portfolio is a breif introduction to myself and the coding work I enjoy doi
 
 I display some of my latest works and list tech that I enjoy listing.
 
-I also Include multiple ways to contact me!
+I also Include multiple ways to contact me! 
 
 
 ### Future Development
