@@ -1,0 +1,17 @@
+/* Color Palette */
+:root {
+    --primary: rgb(251, 202, 186);
+    --secondary:rgb(147, 135, 137);
+    --tertiary: rgb(92, 86, 94);
+    --dark: #272727;
+    --light: rgb(255, 208, 190);
+    --white:#faf0fa;
+    --dark-low-op: rgba(39, 39, 39, 0.281);
+    --second-light: rgb(254, 214, 197);
+  }
+  
+  body {
+  font-family: 'Roboto Slab', serif;
+  background-color: var(--dark);
+  font-size: 1vw;
+  }
