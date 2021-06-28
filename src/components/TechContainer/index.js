@@ -1,34 +1,34 @@
-// import html from "./images/html.png";
-// import css from "./images/css.png";
-// import javaScript from "./images/javascript.png";
-// import bootstrap from "./images/bootstrap.png";
-// import git from "./images/git.png";
-// import react from "./images/react.png";
-// import nodejs from "./images/nodejs.png";
-// import express from "./images/expressjs.png";
-// import mySQL from "./images/mysql.png";
-// import sequelize from "./images/sequelize.png";
-// import handlebars from "./images/handlebars.png"
-// import mongoDB from "./images/mongodb.png";
-// import mongoose from "./images/mongoose.png";
-// import jQuery from "./images/jquery.png";
+// import html from "images/html.png";
+// import css from "images/css.png";
+// import javaScript from "images/javascript.png";
+// import bootstrap from "images/bootstrap.png";
+// import git from "images/git.png";
+// import react from "images/react.png";
+// import nodejs from "images/nodejs.png";
+// import express from "images/expressjs.png";
+// import mySQL from "images/mysql.png";
+// import sequelize from "images/sequelize.png";
+// import handlebars from "images/handlebars.png"
+// import mongoDB from "images/mongodb.png";
+// import mongoose from "images/mongoose.png";
+// import jQuery from "images/jquery.png";
 import "./style.css";
 
 const icons = [
-    {key:1, title: "JavaScript", src: "./images/javascript.png"},
-    {key:2, title: "Node.js", src: "./images/nodejs.png"},
-    {key:3, title: "React", src: "./images/react.png"},
-    {key:4, title: "Express", src: "./images/expressjs.png"},
-    {key:5, title: "Git", src: "./images/git.png"},
-    {key:6, title: "MongoDB", src: "./images/mongodb.png"},
-    {key:7, title: "Mongoose", src: "./images/mongoose.png"},
-    {key:8, title: "MySQL", src: "./images/mysql.png"},
-    {key:9, title: "Sequelize", src: "./images/sequelize.png"},
-    {key:10, title: "Handlebars", src: "./images/handlebars.png"},
-    {key:11, title: "Html", src: "./images/html.png"},
-    {key:12, title: "Css", src: "./images/css.png"},
-    {key:13, title: "Bootstrap", src: "./images/bootstrap.png"},
-    {key:14, title: "JQuery", src: "./images/jquery.png"},
+    {key:1, title: "JavaScript", src: "images/javascript.png"},
+    {key:2, title: "Node.js", src: "images/nodejs.png"},
+    {key:3, title: "React", src: "images/react.png"},
+    {key:4, title: "Express", src: "images/expressjs.png"},
+    {key:5, title: "Git", src: "images/git.png"},
+    {key:6, title: "MongoDB", src: "images/mongodb.png"},
+    {key:7, title: "Mongoose", src: "images/mongoose.png"},
+    {key:8, title: "MySQL", src: "images/mysql.png"},
+    {key:9, title: "Sequelize", src: "images/sequelize.png"},
+    {key:10, title: "Handlebars", src: "images/handlebars.png"},
+    {key:11, title: "Html", src: "images/html.png"},
+    {key:12, title: "Css", src: "images/css.png"},
+    {key:13, title: "Bootstrap", src: "images/bootstrap.png"},
+    {key:14, title: "JQuery", src: "images/jquery.png"},
 ];
 
 
@@ -63,7 +63,7 @@ const icons = [
                             {icons.map((icon) => {
                                 return (
                                     <div key={icon.key} className="col-4 col-lg-2 m-1 mb-3" align="center">
-                                        <img src={process.env.PUBLIC_URL + icon.src} alt={icon.title} className="img-fluid logo" />
+                                        <img src={icon.src} alt={icon.title} className="img-fluid logo" />
                                         <p className="logo-text">{icon.title}</p>
                                     </div>
                                 )

@@ -12,7 +12,7 @@
     
 .carousel-caption {
     color: var(--primary);
-    background-color: var(--dark-low-op);
+    background-color: rgba(39, 39, 39, 0.281);
     margin-bottom: auto;
 }
     

@@ -3,22 +3,28 @@
     display: flex;
     justify-content: space-between;
     padding: .5rem 1rem;
-    }
-    
-    .nav-item {
+}
+   
+.title {
+    font-size: 1.75em;
     color: var(--tertiary);
-    }
-    
-    .dropdown-item a {
+}
+
+
+.nav-item {
     color: var(--tertiary);
-    }
+}
     
-    .dropdown-item:hover {
+.dropdown-item a {
+    color: var(--tertiary);
+}
+    
+.dropdown-item:hover {
     color: var(--primary);
     background-color: var(--tertiary);
-    }
+}
     
-    .dropdown-menu {
+.dropdown-menu {
     background-color: linear-gradient(var(--light), var(--second-light));
     border: none;
-    }
+}

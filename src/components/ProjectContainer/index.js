@@ -1,6 +1,6 @@
-// import GunSAFE from "";
-// import TechBlog from "";
-// import RonGH from "";
+import GunSAFE from "./images/gunSAFE.png";
+import TechBlog from "./images/tech-blog.png";
+import RonGH from "./images/rons-grub-hub.png";
 import "./style.css";
 
 function ProjectContainer() {
@@ -11,30 +11,33 @@ function ProjectContainer() {
                 <div id="project-carousel" className="carousel slide p-0 mx-4" data-bs-ride="carousel">
                     <div className="carousel-inner">
                         <div className="carousel-item active">
-                            <a href="https://klay824.github.io/project-1/" target="_blank" rel="noreferrer">
-                                <img className="d-block w-100" src="./assets/images/rons-grub-hub.png" alt="Ron's Grub Hub" />
+                            <a href="https://powerful-bastion-48444.herokuapp.com/" target="_blank" rel="noreferrer">
+                                <img className="d-block w-100" src={GunSAFE} alt="GunSAFE" />
+                            </a>
+                            <div className="carousel-caption d-none d-md-block">
+                                <h5>GunSAFE</h5>
+                                <p>MySQL/Sequelize/Express/Handlebars</p>
+                                <a className="link-secondary" href="https://github.com/philipperkins2020/Project2-gunSAFE" target="_blank" rel="noreferrer">View Repository</a>
+                            </div>
+                        </div>
+                        <div className="carousel-item">
+                            <a href="https://shielded-refuge-24199.herokuapp.com/" target="_blank" rel="noreferrer">
+                                <img className="d-block w-100" src={TechBlog} alt="Third slide" />
+                            </a>
+                            <div className="carousel-caption d-none d-md-block">
+                                <h5>Tech Blog</h5>
+                                <p>MySQL/Sequelize/Express/Handlebars</p>
+                                <a className="link-secondary" href="https://github.com/Alexva397/tech-blog" target="_blank" rel="noreferrer">View Repository</a>
+                            </div>
+                        </div>
+                        <div className="carousel-item">
+                            <a className="link-secondary" href="https://klay824.github.io/project-1/" target="_blank" rel="noreferrer">
+                                <img className="d-block w-100" src={RonGH} alt="Ron's Grub Hub" />
                             </a>
                             <div className="carousel-caption mb-0 pb-0 d-none d-md-block">
                                 <h5>Ron's Grub Hub</h5>
                                 <p>jQuery/Materialize/3rd Party APIs</p>
-                            </div>
-                        </div>
-                        <div className="carousel-item">
-                            <a href="https://powerful-bastion-48444.herokuapp.com/" target="_blank" rel="noreferrer">
-                                <img className="d-block w-100" src="./assets/images/gunSAFE.png" alt="GunSAFE" />
-                            </a>
-                            <div className="carousel-caption d-none d-md-block">
-                                <h5>GunSAFE</h5>
-                                <p>Node.js/Sequelize/Express/Handlebars</p>
-                            </div>
-                        </div>
-                        <div className="carousel-item">
-                            <a href="https://powerful-bastion-48444.herokuapp.com/" target="_blank" rel="noreferrer">
-                                <img className="d-block w-100" src="./assets/images/notetake.png" alt="Third slide" />
-                            </a>
-                            <div className="carousel-caption d-none d-md-block">
-                                <h5>Note Taker</h5>
-                                <p>JavaScript/Node.js/Express</p>
+                                <a href="https://github.com/klay824/project-1" target="_blank" rel="noreferrer">View repository</a>
                             </div>
                         </div>
                     </div>
