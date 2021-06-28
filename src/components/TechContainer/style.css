@@ -1,0 +1,32 @@
+/* gradient transition */
+.gradient {
+    height: 1vh;
+    width: auto;
+    background-image: linear-gradient(var(--dark), var(--white));
+    }
+    
+    .tech-content {
+    background-color: var(--white);
+    }
+    
+    .tech-box {
+    border-bottom: solid var(--dark);
+    }
+    
+    .section-title-text {
+    color: var(--tertiary);
+    font-size: 3rem;
+    border-bottom: solid var(--dark);
+    text-align: center;
+    padding: .5rem 1rem;
+    
+    }
+    
+    .logo {
+    width: 100px;
+    height: auto;
+    }
+    
+    .logo-text {
+    font-size: 1.25rem;
+    }

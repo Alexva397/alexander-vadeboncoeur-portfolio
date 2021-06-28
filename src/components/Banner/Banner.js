@@ -1,3 +1,5 @@
+import "./style.css";
+
 
 function Banner() {
     return (
@@ -5,7 +7,7 @@ function Banner() {
             <section className="row justify-content-end">
                 <div className="col-md-8 col-lg-4 mt-5">
                     <div className="profile-picture">
-                        <img src="./assets/images/profilepic.jpg" alt="Alex Vadeboncoeur" />
+                        <img src="../assets/images/profilepic.jpg" alt="Alex Vadeboncoeur" />
                     </div>
                 </div>
             </section>

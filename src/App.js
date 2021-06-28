@@ -1,5 +1,6 @@
-import Banner from "./components/Banner";
-import Header from "./components/Header";
+import Banner from "./components/Banner/Banner";
+import Header from "./components/Header/Header";
+import TechContainer from "./components/TechContainer"
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
       <Header />
       <main>
         <Banner /> 
+        <TechContainer />
       </main>
     </>
   );

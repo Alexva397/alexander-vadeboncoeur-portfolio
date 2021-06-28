@@ -1,3 +1,5 @@
+import React from "react";
+import "./style.css"
 function Title() {
     return (
         <a className="navbar-brand mr-auto" href="/">
