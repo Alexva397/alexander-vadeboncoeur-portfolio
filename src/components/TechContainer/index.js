@@ -46,6 +46,14 @@ import "./style.css";
                                 <p className="logo-text">Express</p>
                             </div>
                             <div className="col-4 col-lg-2 m-1 mb-3" align="center">
+                                <img src={MongoDB} alt="MongoDB" className="img-fluid logo" />
+                                <p className="logo-text">MongoDB</p>
+                            </div>
+                            <div className="col-4 col-lg-2 m-1 mb-3" align="center">
+                                <img src={Mongoose} alt="Mongoose" className="img-fluid logo" />
+                                <p className="logo-text">MongooseJs</p>
+                            </div>
+                            <div className="col-4 col-lg-2 m-1 mb-3" align="center">
                                 <img src={MySQL} alt="MySQL" className="img-fluid logo" />
                                 <p className="logo-text">MySQL</p>
                             </div>
@@ -56,14 +64,6 @@ import "./style.css";
                             <div className="col-4 col-lg-2 m-1 mb-3" align="center">
                                 <img src={Handlebars} alt="Handlebarsjs" className="img-fluid logo" />
                                 <p className="logo-text">Handlebars</p>
-                            </div>
-                            <div className="col-4 col-lg-2 m-1 mb-3" align="center">
-                                <img src={MongoDB} alt="MongoDB" className="img-fluid logo" />
-                                <p className="logo-text">MongoDB</p>
-                            </div>
-                            <div className="col-4 col-lg-2 m-1 mb-3" align="center">
-                                <img src={Mongoose} alt="Mongoose" className="img-fluid logo" />
-                                <p className="logo-text">MongooseJs</p>
                             </div>
                             <div className="col-4 col-lg-2 m-1 mb-3" align="center">
                                 <img src={Html} alt="HTML5" className="img-fluid logo" />

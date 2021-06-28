@@ -1,6 +1,7 @@
 import Banner from "./components/Banner/Banner";
 import Header from "./components/Header/Header";
-import TechContainer from "./components/TechContainer"
+import TechContainer from "./components/TechContainer";
+import ProjectContainer from "./components/ProjectContainer";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <main>
         <Banner /> 
         <TechContainer />
+        <ProjectContainer />
       </main>
     </>
   );

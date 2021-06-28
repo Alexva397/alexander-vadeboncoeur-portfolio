@@ -1,0 +1,24 @@
+.projects-title-text {
+    color: var(--tertiary);
+    font-size: 3rem;
+    text-align: center;
+    padding: .5rem 1rem; 
+}
+    
+.carousel {
+    border: solid var(--dark);
+    border-radius: 5px;
+}
+    
+.carousel-caption {
+    color: var(--primary);
+    background-color: var(--dark-low-op);
+    margin-bottom: auto;
+}
+    
+.gradient-bottom {
+    height: 10vh;
+    width: auto;
+    background: rgb(39,39,39);
+    background: linear-gradient(0deg, rgba(39,39,39,1) 55%, rgba(250,240,250,1) 72%);
+}

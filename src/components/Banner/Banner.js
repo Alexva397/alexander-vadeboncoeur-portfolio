@@ -1,16 +1,10 @@
 import "./style.css";
-
+import ProfilePic from "../ProfilePic";
 
 function Banner() {
     return (
         <div className="background-banner container-fluid">
-            <section className="row justify-content-end">
-                <div className="col-md-8 col-lg-4 mt-5">
-                    <div className="profile-picture">
-                        <img src="../assets/images/profilepic.jpg" alt="Alex Vadeboncoeur" />
-                    </div>
-                </div>
-            </section>
+            <ProfilePic />
             <section className="row justify-content-start m-4">
                 <div className="about-me col-lg-6 col-md-12 mb-5">
                     <h3 className="section-title-text">About Me</h3>
