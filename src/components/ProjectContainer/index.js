@@ -1,4 +1,6 @@
-
+// import GunSAFE from "";
+// import TechBlog from "";
+// import RonGH from "";
 import "./style.css";
 
 function ProjectContainer() {
@@ -36,11 +38,11 @@ function ProjectContainer() {
                             </div>
                         </div>
                     </div>
-                    <a className="carousel-control-prev" data-bs-target="#project-carousel" role="button" data-bs-slide="prev">
+                    <a className="carousel-control-prev" href="/#" data-bs-target="#project-carousel" role="button" data-bs-slide="prev">
                         <span className="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span className="sr-only">Previous</span>
                     </a>
-                    <a className="carousel-control-next" data-bs-target="#project-carousel" role="button" data-bs-slide="next">
+                    <a className="carousel-control-next" href="/#" data-bs-target="#project-carousel" role="button" data-bs-slide="next">
                         <span className="carousel-control-next-icon" aria-hidden="true"></span>
                         <span className="sr-only">Next</span>
                     </a>

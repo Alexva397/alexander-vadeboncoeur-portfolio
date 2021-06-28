@@ -3,30 +3,3 @@ header {
     margin-bottom: -5px;
     }
     
-
-    
-    .navbar {
-    font-size: 1.25rem;
-    display: flex;
-    justify-content: space-between;
-    padding: .5rem 1rem;
-    }
-    
-    .nav-item {
-    color: var(--tertiary);
-    }
-    
-    .dropdown-item a {
-    color: var(--tertiary);
-    }
-    
-    .dropdown-item:hover {
-    color: var(--primary);
-    background-color: var(--tertiary);
-    }
-    
-    .dropdown-menu {
-    background-color: linear-gradient(var(--light), var(--second-light));
-    border: none;
-    }
-    

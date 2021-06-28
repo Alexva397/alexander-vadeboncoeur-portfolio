@@ -1,3 +1,5 @@
+import "./style.css";
+
 function Navbar() {
     return (
         <div className="navbar-nav">
@@ -21,15 +23,21 @@ function Navbar() {
                             Contact Me
                         </a>
                         <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a className="dropdown-item" href="mailto:asvadeboncoeur@gmail.com"><i
-                                        className="far fa-envelope"></i> <span className="contact-button">Email</span></a>
+                            <li>
+                                <a className="dropdown-item" href="mailto:asvadeboncoeur@gmail.com">
+                                    <i className="far fa-envelope"></i> <span className="contact-button">Email</span>
+                                </a>
                             </li>
-                            <a className="dropdown-item" href="https://github.com/Alexva397" target="_blank" rel="noreferrer"><i
-                                    className="fab fa-github"></i> <span className="contact-button">GitHub</span></a>
-                            <a className="dropdown-item"
-                                href="https://www.linkedin.com/in/alexander-vadeboncoeur-287039aa/"
-                                target="_blank" rel="noreferrer"><i className="fab fa-linkedin"></i> <span
-                                    className="contact-button">Linkedin</span></a>
+                            <li>
+                                <a className="dropdown-item" href="https://github.com/Alexva397" target="_blank" rel="noreferrer">
+                                    <i className="fab fa-github"></i> <span className="contact-button">GitHub</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a className="dropdown-item" href="https://www.linkedin.com/in/alexander-vadeboncoeur-287039aa/" target="_blank" rel="noreferrer">
+                                    <i className="fab fa-linkedin"></i> <span className="contact-button">Linkedin</span>
+                                </a>
+                            </li>
                             <li><a className="dropdown-item" href="tel:+12148706893">+1 214-870-6893</a></li>
                         </ul>
                     </li>
