@@ -1,53 +1,35 @@
-// import html from "images/html.png";
-// import css from "images/css.png";
-// import javaScript from "images/javascript.png";
-// import bootstrap from "images/bootstrap.png";
-// import git from "images/git.png";
-// import react from "images/react.png";
-// import nodejs from "images/nodejs.png";
-// import express from "images/expressjs.png";
-// import mySQL from "images/mysql.png";
-// import sequelize from "images/sequelize.png";
-// import handlebars from "images/handlebars.png"
-// import mongoDB from "images/mongodb.png";
-// import mongoose from "images/mongoose.png";
-// import jQuery from "images/jquery.png";
+import html from "./images/html.png";
+import css from "./images/css.png";
+import javaScript from "./images/javascript.png";
+import bootstrap from "./images/bootstrap.png";
+import git from "./images/git.png";
+import react from "./images/react.png";
+import nodejs from "./images/nodejs.png";
+import express from "./images/expressjs.png";
+import mySQL from "./images/mysql.png";
+import sequelize from "./images/sequelize.png";
+import handlebars from "./images/handlebars.png"
+import mongoDB from "./images/mongodb.png";
+import mongoose from "./images/mongoose.png";
+import jQuery from "./images/jquery.png";
 import "./style.css";
 
 const icons = [
-    {key:1, title: "JavaScript", src: "images/javascript.png"},
-    {key:2, title: "Node.js", src: "images/nodejs.png"},
-    {key:3, title: "React", src: "images/react.png"},
-    {key:4, title: "Express", src: "images/expressjs.png"},
-    {key:5, title: "Git", src: "images/git.png"},
-    {key:6, title: "MongoDB", src: "images/mongodb.png"},
-    {key:7, title: "Mongoose", src: "images/mongoose.png"},
-    {key:8, title: "MySQL", src: "images/mysql.png"},
-    {key:9, title: "Sequelize", src: "images/sequelize.png"},
-    {key:10, title: "Handlebars", src: "images/handlebars.png"},
-    {key:11, title: "Html", src: "images/html.png"},
-    {key:12, title: "Css", src: "images/css.png"},
-    {key:13, title: "Bootstrap", src: "images/bootstrap.png"},
-    {key:14, title: "JQuery", src: "images/jquery.png"},
+    {key:1, title: "JavaScript", src: javaScript},
+    {key:2, title: "Node.js", src: nodejs},
+    {key:3, title: "React", src: react},
+    {key:4, title: "Express", src: express},
+    {key:5, title: "Git", src: git},
+    {key:6, title: "MongoDB", src: mongoDB},
+    {key:7, title: "Mongoose", src: mongoose},
+    {key:8, title: "MySQL", src: mySQL},
+    {key:9, title: "Sequelize", src: sequelize},
+    {key:10, title: "Handlebars", src: handlebars},
+    {key:11, title: "Html", src: html},
+    {key:12, title: "Css", src: css},
+    {key:13, title: "Bootstrap", src: bootstrap},
+    {key:14, title: "JQuery", src: jQuery},
 ];
-
-
-// const icons = [
-//     {key:1, title: "JavaScript", src: {javaScript}},
-//     {key:2, title: "Node.js", src: {nodejs}},
-//     {key:3, title: "React", src: {react}},
-//     {key:4, title: "Express", src: {express}},
-//     {key:5, title: "Git", src: {git}},
-//     {key:6, title: "MongoDB", src: {mongoDB}},
-//     {key:7, title: "Mongoose", src: {mongoose}},
-//     {key:8, title: "MySQL", src: {mySQL}},
-//     {key:9, title: "Sequelize", src: {sequelize}},
-//     {key:10, title: "Handlebars", src: {handlebars}},
-//     {key:11, title: "Html", src: {html}},
-//     {key:12, title: "Css", src: {css}},
-//     {key:13, title: "Bootstrap", src: {bootstrap}},
-//     {key:14, title: "JQuery", src: {jQuery}},
-// ];
 
  function TechContainer() {
     return (
