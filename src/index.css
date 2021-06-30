@@ -1,41 +1,41 @@
 /* Color Palette */
 :root {
-    --primary: rgb(251, 202, 186);
-    --secondary:rgb(147, 135, 137);
-    --tertiary: rgb(92, 86, 94);
-    --dark: #272727;
-    --light: rgb(255, 208, 190);
-    --white:#faf0fa;
-    --dark-low-op: rgba(39, 39, 39, 0.281);
-    --second-light: rgb(254, 214, 197);
-  }
+  --primary: rgb(251, 202, 186);
+  --secondary:rgb(147, 135, 137);
+  --tertiary: rgb(92, 86, 94);
+  --dark: #272727;
+  --light: rgb(255, 208, 190);
+  --white:#faf0fa;
+  --dark-low-op: rgba(39, 39, 39, 0.281);
+  --second-light: rgb(254, 214, 197);
+}
   
-  body {
+body {
   font-family: 'Roboto Slab', serif;
   background-color: var(--dark);
   font-size: 1vw;
-  }
+}
 
-  @media screen and (max-width: 980px) {
-    .background-banner {
-      min-height: 60vh;
-    }
-    .section-title-text {
-      font-size: 2.25rem;
-      padding: .25rem;
-    }
-    .logo {
-      width: 80px;
-      height: auto;
-    }
-    }
-    
-    @media screen and (max-width: 768px) {
-    .background-banner {
-      min-height: 30vh;
-    }
-    .logo {
-      width: 60px;
-      height: auto;
-    }
-    }
+@media screen and (max-width: 980px) {
+  .background-banner {
+    min-height: 60vh;
+  }
+  .section-title-text {
+    font-size: 2.25rem;
+    padding: .25rem;
+  }
+  .logo {
+    width: 80px;
+    height: auto;
+  }
+  }
+  
+  @media screen and (max-width: 768px) {
+  .background-banner {
+    min-height: 30vh;
+  }
+  .logo {
+    width: 60px;
+    height: auto;
+  }
+}

@@ -12,7 +12,7 @@ function Banner() {
                         <p className="about-me-body text-center p-3">I am a full-stack web developer with a passion for
                             learning new skills and problem solving. I enjoy taking on new challanges and creating
                             unique and interactive applications. I have a background as a service technician and have 3
-                            years service/retail management experience. Feel free and reach out to connect, collaberate,
+                            years service/retail management experience. Feel free and reach out to connect, collaborate,
                             and learn more!
                         </p>
                     </div>

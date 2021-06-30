@@ -3,11 +3,10 @@ import "./style.css";
 function Navbar() {
     return (
         <>
-            
             <nav className="navbar navbar-expand-lg navbar-light">
                 <a className="navbar-brand mr-auto" href="/">
                     <h2 className="title">Alex Vadeboncoeur</h2>
-                </a>        
+                </a>
                 <div className="navbar-nav">
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
                         aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">

@@ -1,19 +1,15 @@
 .background-banner {
-    /* display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center; */
     background-size: cover;
     background-position: top; 
-    background-image: url("../assets/images/background-banner.jpg");
+    background-image: url("./images/background-banner.jpg");
     min-height: 90vh;
     }
     
-    .about-me {
+.about-me {
     background-color: #faf0faa9;
     border-radius: 10px;
-    }
-    
-    .about-me-body {
+}    
+
+.about-me-body {
     font-size: 1rem;
-    }
+}
