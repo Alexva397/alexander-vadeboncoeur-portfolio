@@ -23,7 +23,7 @@ function Navbar() {
                                     target="_blank" rel="noreferrer">Resume</a>
                             </li>
                             <li className="nav-item dropdown">
-                                <a className="nav-link dropdown-toggle" href="/" id="navbarDropdown" role="button"
+                                <a className="nav-link dropdown-toggle" href="/alexander-vadeboncoeur-portfolio" id="navbarDropdown" role="button"
                                     data-bs-toggle="dropdown" aria-expanded="false">
                                     Contact Me
                                 </a>
