@@ -4,7 +4,7 @@ function Navbar() {
     return (
         <>
             <nav className="navbar navbar-expand-lg navbar-light">
-                <a className="navbar-brand mr-auto" href="/">
+                <a className="navbar-brand mr-auto" href="/alexander-vadeboncoeur-portfolio">
                     <h2 className="title">Alex Vadeboncoeur</h2>
                 </a>
                 <div className="navbar-nav">
@@ -23,7 +23,7 @@ function Navbar() {
                                     target="_blank" rel="noreferrer">Resume</a>
                             </li>
                             <li className="nav-item dropdown">
-                                <a className="nav-link dropdown-toggle" href="/alexander-vadeboncoeur-portfolio" id="navbarDropdown" role="button"
+                                <a className="nav-link dropdown-toggle" href="/" id="navbarDropdown" role="button"
                                     data-bs-toggle="dropdown" aria-expanded="false">
                                     Contact Me
                                 </a>
