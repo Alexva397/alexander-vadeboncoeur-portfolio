@@ -1,5 +1,5 @@
-import Banner from "./components/Banner/Banner";
-import Header from "./components/Header/Header";
+import Banner from "./components/Banner";
+import Header from "./components/Header";
 import TechContainer from "./components/TechContainer";
 import ProjectContainer from "./components/ProjectContainer";
 
