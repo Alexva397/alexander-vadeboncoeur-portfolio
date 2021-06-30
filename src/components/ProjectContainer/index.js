@@ -17,7 +17,7 @@ function ProjectContainer() {
                             <div className="carousel-caption d-none d-md-block">
                                 <h5>GunSAFE</h5>
                                 <p>MySQL/Sequelize/Express/Handlebars</p>
-                                <a className="link-secondary" href="https://github.com/philipperkins2020/Project2-gunSAFE" target="_blank" rel="noreferrer">View Repository</a>
+                                <a href="https://github.com/philipperkins2020/Project2-gunSAFE" target="_blank" rel="noreferrer" className="caption-link">View Repository</a>
                             </div>
                         </div>
                         <div className="carousel-item">
@@ -27,17 +27,17 @@ function ProjectContainer() {
                             <div className="carousel-caption d-none d-md-block">
                                 <h5>Tech Blog</h5>
                                 <p>MySQL/Sequelize/Express/Handlebars</p>
-                                <a className="link-secondary" href="https://github.com/Alexva397/tech-blog" target="_blank" rel="noreferrer">View Repository</a>
+                                <a href="https://github.com/Alexva397/tech-blog" target="_blank" rel="noreferrer" className="caption-link">View Repository</a>
                             </div>
                         </div>
                         <div className="carousel-item">
-                            <a className="link-secondary" href="https://klay824.github.io/project-1/" target="_blank" rel="noreferrer">
+                            <a href="https://klay824.github.io/project-1/" target="_blank" rel="noreferrer">
                                 <img className="d-block w-100" src={RonGH} alt="Ron's Grub Hub" />
                             </a>
                             <div className="carousel-caption mb-0 pb-0 d-none d-md-block">
                                 <h5>Ron's Grub Hub</h5>
                                 <p>jQuery/Materialize/3rd Party APIs</p>
-                                <a href="https://github.com/klay824/project-1" target="_blank" rel="noreferrer">View repository</a>
+                                <a href="https://github.com/klay824/project-1" target="_blank" rel="noreferrer" className="caption-link">View repository</a>
                             </div>
                         </div>
                     </div>

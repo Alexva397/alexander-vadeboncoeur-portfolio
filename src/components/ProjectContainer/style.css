@@ -12,8 +12,11 @@
     
 .carousel-caption {
     color: var(--primary);
-    background-color: rgba(39, 39, 39, 0.281);
+    background-color: rgba(47, 43, 43, 0.65);
     margin-bottom: auto;
+}
+.caption-link {
+    color: var(--primary);
 }
     
 .gradient-bottom {
