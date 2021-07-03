@@ -19,7 +19,7 @@ function Navbar() {
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link mr-1" aria-current="page"
-                                    href="https://docs.google.com/document/d/e/2PACX-1vTFl8dxiS8v8NETLPe86CPdI9a3yJ1Qfb3Kc2kYewDftoo933cIy-zYOeHDnQZFKTQSyPXv4AUxr3vd/pub"
+                                    href="https://docs.google.com/document/d/1uPpFiUQFWXCSSgJCTNVF3HgAAq5RBCRgCKlHsNCYZ7c/edit?usp=sharing"
                                     target="_blank" rel="noreferrer">Resume</a>
                             </li>
                             <li className="nav-item dropdown">
