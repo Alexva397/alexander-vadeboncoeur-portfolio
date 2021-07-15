@@ -1,6 +1,12 @@
 import projectData from "./projectData";
 import "./style.css";
 
+const style = {
+    captionFont: {
+        fontSize: "1em",
+    },
+}
+
 function ProjectContainer() {
     return (
         <>
@@ -14,7 +20,7 @@ function ProjectContainer() {
                                     <a href={live} target="_blank" rel="noreferrer">
                                         <img className="d-block w-100" src={img} alt={title} />
                                     </a>
-                                    <div className="carousel-caption d-none d-md-block">
+                                    <div style={style.captionFont} className="carousel-caption d-none d-md-block">
                                         <h5>{title}</h5>
                                         <p>{desc}</p>
                                         <p>{tech}</p>
