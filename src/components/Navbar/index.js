@@ -27,10 +27,10 @@ function Navbar() {
                                     data-bs-toggle="dropdown" aria-expanded="false">
                                     Contact Me
                                 </a>
-                                <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <ul className="dropdown-menu dropdown-menu-right text-right" aria-labelledby="navbarDropdown">
                                     <li>
                                         <a className="dropdown-item menu" href="mailto:asvadeboncoeur@gmail.com">
-                                            <i className="far fa-envelope"></i> <span className="contact-button">Email</span>
+                                            <i className="far fa-envelope"></i> <span className="contact-button">asvadeboncoeur@gmail.com</span>
                                         </a>
                                     </li>
                                     <li>
@@ -39,7 +39,7 @@ function Navbar() {
                                         </a>
                                     </li>
                                     <li>
-                                        <a className="dropdown-item" href="https://www.linkedin.com/in/alexander-vadeboncoeur-287039aa/" target="_blank" rel="noreferrer">
+                                        <a className="dropdown-item" href="https://www.linkedin.com/in/avadeboncoeur" target="_blank" rel="noreferrer">
                                             <i className="fab fa-linkedin"></i> <span className="contact-button">Linkedin</span>
                                         </a>
                                     </li>

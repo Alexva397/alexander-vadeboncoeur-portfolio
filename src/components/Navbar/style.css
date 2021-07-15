@@ -1,7 +1,8 @@
 .navbar {
+    margin-right: .5rem;
     font-size: 1.25rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: .5rem 1rem;
 }
    
@@ -23,7 +24,7 @@
     background-color: var(--tertiary);
 }
     
-.dropdown-menu {
-    background-color: linear-gradient(var(--light), var(--second-light));
+.dd-menu{
+    background-color: linear-gradient(rgba(255, 208, 190, 0.178), rgb(254, 214, 197, 0.178));
     border: none;
 }

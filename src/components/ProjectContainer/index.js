@@ -4,6 +4,12 @@ import RonGH from "./images/rons-grub-hub.png";
 import "./style.css";
 
 function ProjectContainer() {
+
+
+
+
+
+
     return (
         <>
             <div className="container tech-content pb-3">
@@ -16,7 +22,8 @@ function ProjectContainer() {
                             </a>
                             <div className="carousel-caption d-none d-md-block">
                                 <h5>GunSAFE</h5>
-                                <p>MySQL/Sequelize/Express/Handlebars</p>
+                                <p>Provides gun owners with safety instructions, education and a place to safely log their firearms.</p>
+                                <p>Node.js/MySQL/Sequelize/Express/Handlebars/Bootstrap</p>
                                 <a href="https://github.com/philipperkins2020/Project2-gunSAFE" target="_blank" rel="noreferrer" className="caption-link">View Repository</a>
                             </div>
                         </div>
@@ -26,16 +33,18 @@ function ProjectContainer() {
                             </a>
                             <div className="carousel-caption d-none d-md-block">
                                 <h5>Tech Blog</h5>
-                                <p>MySQL/Sequelize/Express/Handlebars</p>
+                                <p>A Blog site for users to write about tech and interact with other users.</p>
+                                <p>Node.js/MySQL/Sequelize/Express/Handlebars/BootStrap</p>
                                 <a href="https://github.com/Alexva397/tech-blog" target="_blank" rel="noreferrer" className="caption-link">View Repository</a>
                             </div>
                         </div>
                         <div className="carousel-item">
-                            <a href="https://klay824.github.io/project-1/" target="_blank" rel="noreferrer">
+                            <a href="https://klay824.github.io/rons-grub-hub/" target="_blank" rel="noreferrer">
                                 <img className="d-block w-100" src={RonGH} alt="Ron's Grub Hub" />
                             </a>
                             <div className="carousel-caption mb-0 pb-0 d-none d-md-block">
                                 <h5>Ron's Grub Hub</h5>
+                                <p>A fun restaurant locator themed after Ron Swanson from NBC's Parks and Recreation.</p>
                                 <p>jQuery/Materialize/3rd Party APIs</p>
                                 <a href="https://github.com/klay824/project-1" target="_blank" rel="noreferrer" className="caption-link">View repository</a>
                             </div>

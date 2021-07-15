@@ -39,7 +39,7 @@ const icons = [
                 <div className="row">
                     <div className="col-12 tech-box">
                         <div className="section-title">
-                            <h4 className="section-title-text mx-5">Tech I like using:</h4>
+                            <h4 className="section-title-text mx-5">Tech I enjoy using:</h4>
                         </div>
                         <div className="row flex-wrap justify-content-center mx-4 py-4">
                             {icons.map((icon) => {
