@@ -48,7 +48,7 @@ const icons = [
                                         <img src={icon.src} alt={icon.title} className="img-fluid logo" />
                                         <p className="logo-text">{icon.title}</p>
                                     </div>
-                                )
+                                );
                             })}
                         </div>
                     </div>

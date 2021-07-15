@@ -1,55 +1,30 @@
-import GunSAFE from "./images/gunSAFE.png";
-import TechBlog from "./images/tech-blog.png";
-import RonGH from "./images/rons-grub-hub.png";
+import projectData from "./projectData";
 import "./style.css";
 
 function ProjectContainer() {
-
-
-
-
-
-
     return (
         <>
             <div className="container tech-content pb-3">
                 <h4 className="projects-title-text" id="projects">My Projects</h4>
                 <div id="project-carousel" className="carousel slide p-0 mx-4" data-bs-ride="carousel">
                     <div className="carousel-inner">
-                        <div className="carousel-item active">
-                            <a href="https://powerful-bastion-48444.herokuapp.com/" target="_blank" rel="noreferrer">
-                                <img className="d-block w-100" src={GunSAFE} alt="GunSAFE" />
-                            </a>
-                            <div className="carousel-caption d-none d-md-block">
-                                <h5>GunSAFE</h5>
-                                <p>Provides gun owners with safety instructions, education and a place to safely log their firearms.</p>
-                                <p>Node.js/MySQL/Sequelize/Express/Handlebars/Bootstrap</p>
-                                <a href="https://github.com/philipperkins2020/Project2-gunSAFE" target="_blank" rel="noreferrer" className="caption-link">View Repository</a>
-                            </div>
-                        </div>
-                        <div className="carousel-item">
-                            <a href="https://shielded-refuge-24199.herokuapp.com/" target="_blank" rel="noreferrer">
-                                <img className="d-block w-100" src={TechBlog} alt="Third slide" />
-                            </a>
-                            <div className="carousel-caption d-none d-md-block">
-                                <h5>Tech Blog</h5>
-                                <p>A Blog site for users to write about tech and interact with other users.</p>
-                                <p>Node.js/MySQL/Sequelize/Express/Handlebars/BootStrap</p>
-                                <a href="https://github.com/Alexva397/tech-blog" target="_blank" rel="noreferrer" className="caption-link">View Repository</a>
-                            </div>
-                        </div>
-                        <div className="carousel-item">
-                            <a href="https://klay824.github.io/rons-grub-hub/" target="_blank" rel="noreferrer">
-                                <img className="d-block w-100" src={RonGH} alt="Ron's Grub Hub" />
-                            </a>
-                            <div className="carousel-caption mb-0 pb-0 d-none d-md-block">
-                                <h5>Ron's Grub Hub</h5>
-                                <p>A fun restaurant locator themed after Ron Swanson from NBC's Parks and Recreation.</p>
-                                <p>jQuery/Materialize/3rd Party APIs</p>
-                                <a href="https://github.com/klay824/project-1" target="_blank" rel="noreferrer" className="caption-link">View repository</a>
-                            </div>
-                        </div>
-                    </div>
+                        {projectData.map(({ id, title, desc, tech, img, live, repo }) => {
+                            return (
+                                <div key={id} className={id === 1 ? "carousel-item active" : "carousel-item"}>
+                                    <a href={live} target="_blank" rel="noreferrer">
+                                        <img className="d-block w-100" src={img} alt={title} />
+                                    </a>
+                                    <div className="carousel-caption d-none d-md-block">
+                                        <h5>{title}</h5>
+                                        <p>{desc}</p>
+                                        <p>{tech}</p>
+                                        <a href={repo} target="_blank" rel="noreferrer" className="caption-link">View Repository  |</a>
+                                        <a href={live} target="_blank" rel="noreferrer" className="caption-link">  View App</a>
+                                    </div>
+                                </div>
+                            );    
+                        })}
+                    </div> 
                     <a className="carousel-control-prev" href="/#" data-bs-target="#project-carousel" role="button" data-bs-slide="prev">
                         <span className="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span className="sr-only">Previous</span>
