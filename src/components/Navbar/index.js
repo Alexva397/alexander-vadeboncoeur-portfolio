@@ -1,5 +1,12 @@
 import "./style.css";
 
+const styles = {
+    drownDown: {
+        backgroundColor: "#ffd0be00",
+        border: "none",
+    },
+};
+
 function Navbar() {
     return (
         <>
@@ -27,10 +34,16 @@ function Navbar() {
                                     data-bs-toggle="dropdown" aria-expanded="false">
                                     Contact Me
                                 </a>
-                                <ul className="dropdown-menu dropdown-menu-right text-right" aria-labelledby="navbarDropdown">
+                                <ul style={styles.drownDown} className="dropdown-menu dropdown-menu-right text-right" aria-labelledby="navbarDropdown">
                                     <li>
                                         <a className="dropdown-item menu" href="mailto:asvadeboncoeur@gmail.com">
                                             <i className="far fa-envelope"></i> <span className="contact-button">asvadeboncoeur@gmail.com</span>
+                                        </a>
+                                    </li>
+                                    <li><a className="dropdown-item" href="tel:+12148706893">+1 214-870-6893</a></li>
+                                    <li>
+                                        <a className="dropdown-item" href="https://www.linkedin.com/in/avadeboncoeur" target="_blank" rel="noreferrer">
+                                            <i className="fab fa-linkedin"></i> <span className="contact-button">Linkedin</span>
                                         </a>
                                     </li>
                                     <li>
@@ -38,12 +51,6 @@ function Navbar() {
                                             <i className="fab fa-github"></i> <span className="contact-button">GitHub</span>
                                         </a>
                                     </li>
-                                    <li>
-                                        <a className="dropdown-item" href="https://www.linkedin.com/in/avadeboncoeur" target="_blank" rel="noreferrer">
-                                            <i className="fab fa-linkedin"></i> <span className="contact-button">Linkedin</span>
-                                        </a>
-                                    </li>
-                                    <li><a className="dropdown-item" href="tel:+12148706893">+1 214-870-6893</a></li>
                                 </ul>
                             </li>
                         </ul>

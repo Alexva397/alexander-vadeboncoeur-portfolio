@@ -21,10 +21,5 @@
     
 .dropdown-item:hover {
     color: var(--primary);
-    background-color: var(--tertiary);
-}
-    
-.dd-menu{
-    background-color: linear-gradient(rgba(255, 208, 190, 0.178), rgb(254, 214, 197, 0.178));
-    border: none;
+    background-color: rgba(92, 86, 94, 0.294);
 }
