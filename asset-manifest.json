@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/alexander-vadeboncoeur-portfolio/static/css/main.de3cc749.chunk.css",
-    "main.js": "/alexander-vadeboncoeur-portfolio/static/js/main.47309808.chunk.js",
-    "main.js.map": "/alexander-vadeboncoeur-portfolio/static/js/main.47309808.chunk.js.map",
+    "main.js": "/alexander-vadeboncoeur-portfolio/static/js/main.d4c162c1.chunk.js",
+    "main.js.map": "/alexander-vadeboncoeur-portfolio/static/js/main.d4c162c1.chunk.js.map",
     "runtime-main.js": "/alexander-vadeboncoeur-portfolio/static/js/runtime-main.9b7493a0.js",
     "runtime-main.js.map": "/alexander-vadeboncoeur-portfolio/static/js/runtime-main.9b7493a0.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/alexander-vadeboncoeur-portfolio/static/css/2.4c97ca4f.chunk.css",
@@ -25,7 +25,7 @@
     "static/media/mongodb.9ab57dcc.png": "/alexander-vadeboncoeur-portfolio/static/media/mongodb.9ab57dcc.png",
     "static/media/mysql.b07844f4.png": "/alexander-vadeboncoeur-portfolio/static/media/mysql.b07844f4.png",
     "static/media/nodejs.7f6cb2d4.png": "/alexander-vadeboncoeur-portfolio/static/media/nodejs.7f6cb2d4.png",
-    "static/media/profilepic.47597c65.jpg": "/alexander-vadeboncoeur-portfolio/static/media/profilepic.47597c65.jpg",
+    "static/media/profilepic.e0dcdeaa.jpg": "/alexander-vadeboncoeur-portfolio/static/media/profilepic.e0dcdeaa.jpg",
     "static/media/react.236e02a2.png": "/alexander-vadeboncoeur-portfolio/static/media/react.236e02a2.png",
     "static/media/rons-grub-hub.b38d28d5.png": "/alexander-vadeboncoeur-portfolio/static/media/rons-grub-hub.b38d28d5.png",
     "static/media/sequelize.4c1f7159.png": "/alexander-vadeboncoeur-portfolio/static/media/sequelize.4c1f7159.png",
@@ -36,6 +36,6 @@
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.990709f1.chunk.js",
     "static/css/main.de3cc749.chunk.css",
-    "static/js/main.47309808.chunk.js"
+    "static/js/main.d4c162c1.chunk.js"
   ]
 }
