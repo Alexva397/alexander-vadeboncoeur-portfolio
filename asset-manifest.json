@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/alexander-vadeboncoeur-portfolio/static/css/main.de3cc749.chunk.css",
-    "main.js": "/alexander-vadeboncoeur-portfolio/static/js/main.d4c162c1.chunk.js",
-    "main.js.map": "/alexander-vadeboncoeur-portfolio/static/js/main.d4c162c1.chunk.js.map",
+    "main.js": "/alexander-vadeboncoeur-portfolio/static/js/main.e683e3e1.chunk.js",
+    "main.js.map": "/alexander-vadeboncoeur-portfolio/static/js/main.e683e3e1.chunk.js.map",
     "runtime-main.js": "/alexander-vadeboncoeur-portfolio/static/js/runtime-main.9b7493a0.js",
     "runtime-main.js.map": "/alexander-vadeboncoeur-portfolio/static/js/runtime-main.9b7493a0.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/alexander-vadeboncoeur-portfolio/static/css/2.4c97ca4f.chunk.css",
@@ -29,13 +29,14 @@
     "static/media/react.236e02a2.png": "/alexander-vadeboncoeur-portfolio/static/media/react.236e02a2.png",
     "static/media/rons-grub-hub.b38d28d5.png": "/alexander-vadeboncoeur-portfolio/static/media/rons-grub-hub.b38d28d5.png",
     "static/media/sequelize.4c1f7159.png": "/alexander-vadeboncoeur-portfolio/static/media/sequelize.4c1f7159.png",
-    "static/media/tech-blog.bef510cc.png": "/alexander-vadeboncoeur-portfolio/static/media/tech-blog.bef510cc.png"
+    "static/media/tech-blog.bef510cc.png": "/alexander-vadeboncoeur-portfolio/static/media/tech-blog.bef510cc.png",
+    "static/media/the-DIY-solution.f2d4500d.png": "/alexander-vadeboncoeur-portfolio/static/media/the-DIY-solution.f2d4500d.png"
   },
   "entrypoints": [
     "static/js/runtime-main.9b7493a0.js",
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.990709f1.chunk.js",
     "static/css/main.de3cc749.chunk.css",
-    "static/js/main.d4c162c1.chunk.js"
+    "static/js/main.e683e3e1.chunk.js"
   ]
 }
