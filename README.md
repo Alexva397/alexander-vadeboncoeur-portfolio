@@ -11,7 +11,7 @@ My Portfolio is created using React and Bootstrap. *The standard HTML/CSS versio
 
 ## Future Development
 
-  Converting components to utilize React-Bootsrap instead of the standard bootstrap npm package.
+  Converting app to utilize Material-UI.
 
 
 ### If you have any questions, or would like to learn more, please contact me:
