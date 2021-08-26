@@ -26,7 +26,7 @@ function Navbar() {
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link mr-1" aria-current="page"
-                                    href="https://docs.google.com/document/d/1uPpFiUQFWXCSSgJCTNVF3HgAAq5RBCRgCKlHsNCYZ7c/edit?usp=sharing"
+                                    href="https://docs.google.com/document/d/1qTxeGla2gklNKgOQe6n3iTPBw2vC2LTOD30KOBFTBQ8/edit?usp=sharing"
                                     target="_blank" rel="noreferrer">Resume</a>
                             </li>
                             <li className="nav-item dropdown">
